@@ -1,0 +1,31 @@
+1 - En la carpeta del ejercicio por consola clone el repositorio maryrose-hw con el nombre suyo.
+2 - Ingrese por consola al repositorio con su nombre
+2 - Verificar el estado del repositorio.
+3 - Verifique el log de commits en una sola linea
+4 - Verifique el estado de las ramas del proyecto.
+5 - Cree una nueva rama nombrandola con su nombre.
+6 - Cambie a esta rama
+7 - Abra el archivo homework.js de su repositorio con sublimetext y agrege el siguiente texto:
+
+	// 5. Write try catch 
+	try {
+	    adddlert("Welcome guest!");
+	}
+	catch(err) {
+	    document.getElementById("demo").innerHTML = err.message;
+	}
+
+8 - Agrege el archivo a la stagin area.
+9 - Abra de nuevo el archivo homework.js y borre todo su contenido luego guardelo.
+10 - Recupere el contenido del archivo desde el stage area.
+11 - Realice un commit con el mensaje "Add Try Catch"
+12 - Elimine el archivo homework.js
+13 - Recuperelo desde el ultimo commit
+14 - Modifique el archivo homework.js y guardelo.
+15 - Agregelo a la stage area.
+16 - Realice un commit con el texto "Finish 2"
+17 - Haga un push a la rama remota.
+18 - Con la consola retorne al repositorio remoto
+19 - Estando en el repositorio liste las ramas.
+20 - Cambie a la rama con su nombre
+21 - Haga un git log
